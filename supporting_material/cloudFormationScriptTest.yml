@@ -2,8 +2,8 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: Udacity - This template deploys a VPC
 # must have at least 1 resource
 Resources:
-  UdacityVPC:
-    Type: 'AWS::EC2::VPC'
-    Properties:
-      CidrBlock: 10.0.0.0/16
-      EnableDnsHostnames: 'true'
+    UdacityVPC: # label for personal reference
+      Type: AWS::EC2::VPC
+      Properties:
+        CidrBlock: 10.0.0.0/16
+        EnableDnsHostnames: true
