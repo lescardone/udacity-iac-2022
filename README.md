@@ -28,3 +28,8 @@ You can run the supporting material in two easy steps:
 # Check the region in the update.sh file
 ./update.sh mySecStack servers.yml server-parameters.json
 ```
+
+### Running CloudFormation test script for section 1 (Getting Started)
+`scripts/create.sh testStack cloudFormationScriptTest.yml`
+$1 is stack name
+$2 is the template body file
